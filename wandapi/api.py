@@ -38,8 +38,8 @@ def setup_app(conf=config):
     # un-versioned resources
     api.add_route('/versions', root.Version())
 
-    api.add_route('/v1/hosts', v1.wands.WandCollection())
-    api.add_route('/v1/alarms/{uuid}', v1.wands.WandItem())
+    api.add_route('/v1/wands', v1.wands.WandCollection())
+    api.add_route('/v1/wands/{uuid}', v1.wands.WandItem())
 
     api_setup_logger.info('API Initialized')
 

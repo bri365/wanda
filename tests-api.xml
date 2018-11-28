@@ -1,0 +1,59 @@
+<testsuite errors="0" failures="0" name="nose2-junit" skipped="0" tests="19" time="0.210">
+  <testcase classname="wandapi.tests.system.test_command.TestCommand" name="test_api_server" time="0.007195">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.v1.test_wands.TestWands" name="test_list_wands_zero" time="0.010226">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_path_version_long_ok" time="0.012105">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_path_version_short_ok" time="0.010579">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_resource_not_found" time="0.009961">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_version_not_found" time="0.010679">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_version_not_supported" time="0.010466">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_versions.TestVersions" name="test_version_ok" time="0.010364">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_accept_json" time="0.011302">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_empty_request_body" time="0.010014">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_method_not_allowed" time="0.010729">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_non_json_request_accept" time="0.011350">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_non_json_request_content" time="0.010012">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_non_json_request_content_bad_content_type" time="0.010681">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_non_json_request_data" time="0.019750">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_options" time="0.010498">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_post_request_empty_body" time="0.011329">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_put_request_empty_body" time="0.009934">
+    <system-out />
+  </testcase>
+  <testcase classname="wandapi.tests.root.test_root.TestRootController" name="test_star_request_accept" time="0.010251">
+    <system-out />
+  </testcase>
+</testsuite>

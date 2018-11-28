@@ -9,7 +9,7 @@ class WandCollection(BaseResource):
     @staticmethod
     def on_get(req, resp):
         """Return a list of wands."""
-        pass
+        req.context['result'] = []
 
 
 class WandItem(BaseResource):
