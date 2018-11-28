@@ -1,0 +1,7 @@
+#!/home/wandapi/virtualenv/bin/python
+
+import sys
+from wandapi.command import api
+
+if __name__ == '__main__':
+    sys.exit(api.main())
